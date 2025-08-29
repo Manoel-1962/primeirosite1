@@ -5,3 +5,16 @@ h1 {
     background-color: aquamarine;
     
 }
+
+
+p{
+    background-color: aqua;
+    width: 200px;
+    
+}
+
+.sub { 
+    display: list-item;
+
+}
+

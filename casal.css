@@ -26,3 +26,65 @@
     flex-flow: row wrap;
     align-content:;
 }
+
+.pai {
+    display: block;
+    text-align: center;
+}
+
+.filho {
+    display: inline-block;
+}
+
+.rounded-tab {
+  --r: 25px; /* control the radius */
+
+  line-height: 1.8; /* control the height */
+  padding-inline: .5em;
+  border-inline: var(--r) solid #0000;
+  border-radius: calc(2*var(--r)) calc(2*var(--r)) 0 0/var(--r);
+  mask: 
+    radial-gradient(var(--r) at var(--r) 0,#0000 98%,#000 101%)
+      calc(-1*var(--r)) 100%/100% var(--r) repeat-x,
+    conic-gradient(#000 0 0) padding-box;
+  background: #bd5532 border-box; /* border-box is needed for a gradient coloration */
+  width: fit-content;
+}
+
+.mudacor {
+    background-color: blue;
+}
+
+.mudacor:hover {
+    background-color: red;;
+    font-size: larger;
+}
+
+
+.fontnova {
+    font-family: "Dancing Script", cursive;
+}
+
+/* HTML: <div class="ribbon">Your text content</div> */
+.ribbon {
+    font-family: "Pixelify Sans";
+  font-size: 28px;
+  font-weight: bold;
+  color: #fff;
+}
+.ribbon {
+  --s: 1.8em; /* the ribbon size */
+  --d: .8em;  /* the depth */
+  --c: .8em;  /* the cutout part */
+  
+  padding: 0 calc(var(--s) + .5em) var(--d);
+  line-height: 1.8;
+  background:
+    conic-gradient(at left  var(--s) bottom var(--d),
+     #0000 25%,#0008 0 37.5%,#0004 0) 0   /50% 100% no-repeat,
+    conic-gradient(at right var(--s) bottom var(--d),
+     #0004 62.5%,#0008 0 75%,#0000 0) 100%/50% 100% no-repeat;
+  clip-path: polygon(0 var(--d), var(--s) var(--d),var(--s) 0,calc(100% - var(--s)) 0,calc(100% - var(--s)) var(--d),100% var(--d),calc(100% - var(--c)) calc(50% + var(--d)/2),100% 100%,calc(100% - var(--s) - var(--d)) 100%,calc(100% - var(--s) - var(--d)) calc(100% - var(--d)),calc(var(--s) + var(--d)) calc(100% - var(--d)),calc(var(--s) + var(--d)) 100%,0 100%,var(--c) calc(50% + var(--d)/2));
+  background-color: #CC333F; /* the main color */
+  width: fit-content;
+}
