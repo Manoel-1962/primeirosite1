@@ -14,7 +14,7 @@ const gato = {
 
 console.log (gato)
 
-
+asdsdadsa
 
 const cachorro = {
     nome: "whiski",
