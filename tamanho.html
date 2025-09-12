@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <h1 id="titulo">Tatu rei do Jardim</h1>
+    <h2 class="subtitulo">Vagalume foi embora</h2>
+    <h3 class="subtitulo">A tartaruga fugiu</h3>
+    <button id="botaoAlerta">Clica aqui</button>
+    <script>
+      const title = document.getElementById("titulo");
+      titulo.innerText = "Agora o Rei é o Gambá";
+      const subtitulo = document.querySelectorAll(".subtitulo");
+      subtitulo.forEach( elemento  => {
+        elemento.style.color = "green";
+      });
+      const alerta =()=>{
+        alert("O botão foi presionado!");
+      }
+      
+      const botao =  document.getElementById("botaoAlerta");
+      botao.onclick = alerta;
+
+    </script>
+</body>
+</html>
