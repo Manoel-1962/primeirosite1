@@ -1,0 +1,65 @@
+.fundo-red {
+  background-color: red;
+}
+
+.fundo-yellow {
+  background-color: yellow;
+}
+
+.fundo-green {
+  background-color: green;
+}
+
+.item-1 {
+  font-size: 16px;
+}
+
+.item-2 {
+  font-size: 32px;
+}
+
+.item-3 {
+  font-size: 48px;
+}
+
+h1 {
+  background-color: blue;
+  font-size: 64px;
+}
+
+h2 {
+  background-color: blue;
+  font-size: 32px;
+}
+
+h3 {
+  background-color: blue;
+  font-size: 26px;
+}
+
+h4 {
+  background-color: blue;
+  font-size: 32px;
+}
+
+.cartao {
+  background-color: blue;
+  padding: 10px;
+}
+.cartao h2 {
+  text-decoration: underline;
+}
+
+.importante {
+  text-decoration: underline;
+  font-style: italic;
+  font-size: 20px;
+}
+
+.muito-importante {
+  text-decoration: underline;
+  font-style: italic;
+  font-size: 40px;
+}
+
+/*# sourceMappingURL=estilocompilado.css.map */

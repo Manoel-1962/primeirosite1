@@ -1,0 +1,29 @@
+h1 {
+  background-color: blue;
+  font-size: 64px;
+}
+
+h2 {
+  background-color: blue;
+  font-size: 32px;
+}
+
+h3 {
+  background-color: blue;
+  font-size: 26px;
+}
+
+h4 {
+  background-color: blue;
+  font-size: 32px;
+}
+
+.cartao {
+  background-color: blue;
+  padding: 10px;
+}
+.cartao h2 {
+  text-decoration: underline;
+}
+
+/*# sourceMappingURL=estilocompilad.css.map */
